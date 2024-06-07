@@ -1,0 +1,34 @@
+{
+  "name": "my_first_aplication",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "deploy": "npm run build && npm run export",
+    "start": "next start"
+},
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
+  "dependencies": {
+    "@types/node": "20.14.2",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "autoprefixer": "10.4.19",
+    "bootstrap": "^5.3.3",
+    "bootswatch": "^5.3.3",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.3",
+    "next": "14.2.3",
+    "nodemailer": "^6.9.13",
+    "postcss": "8.4.38",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwindcss": "3.4.4",
+    "typescript": "5.4.5"
+  }
+}
